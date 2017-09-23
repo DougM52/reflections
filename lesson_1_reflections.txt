@@ -1,3 +1,7 @@
+#########################################################
+#Adding a header just st see how commit of changes works.
+#########################################################
+
 1.  How did viewing a diff between two versions of a file help you see the bug that was introduced?
 Visual side by side comparison.
 
