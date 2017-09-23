@@ -1,0 +1,1 @@
+Lost the questions when I tried a git rm which deleted the file from the staging area and the directory as well.
