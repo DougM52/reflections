@@ -1,0 +1,31 @@
+1.  How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Visual side by side comparison.
+
+To use diff on the command line with ls:
+	diff -u $(ls)
+For just the game js files:
+	diff -u $(echo -n $(ls | grep game))	
+
+Note:
+ls puts names on single line (to terminal width?)
+grep seems to append a newline after each item that passes filter
+echo -n removes the newlines
+
+2.  What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros - reduces the size of the database so it is easier to navigate meaningfully
+cons - may save to often or not often enough, and probably saves entire file rather than deltas
+
+3.  Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is tailored to projects with file content likely to be interdependent.
+
+4.  How can you use the commands git log and git diff to view the history of files?
+git log shows commits.  git dif shows changes between commits.
+
+5.  How might using version control make you more confident to make changes that could break something?
+You can always retrieve a fresh copy.
+
+6.  Now that you have your workspace set up, what do you want to try using Git for?
+Finishing course.
+
+
+
